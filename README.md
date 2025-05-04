@@ -1,3 +1,57 @@
+# Grover's Algorithm Password Cracking Simulator
+
+This is a Python project that simulates **Grover's Algorithm** using [Qiskit](https://qiskit.org/). Grover’s algorithm is a quantum search algorithm that finds a target item in an unsorted database in $\sqrt{N}$ time. This demo shows how it can be applied to "crack" a 3-bit quantum password.
+
+---
+
+## Project Highlights
+
+- ✅ Simulates a quantum circuit that searches for a 3-qubit password `|101⟩`
+- ✅ Full implementation of Oracle + Diffuser logic
+- ✅ Visualization support (histogram and Bloch Sphere)
+- ✅ Easily customizable target state
+
+---
+
+## Technologies Used
+
+- Python 3.8+
+- Qiskit
+- matplotlib (for Bloch Sphere plotting)
+- VS Code / Jupyter Notebook
+
+---
+
+## Installation & Execution
+
+1. Install dependencies:
+
+```bash
+pip install "qiskit[all]"
+```
+2. Run the main program:
+```bash
+python Grover_3_Qubit.py
+```
+Or open Grover_3_Qubit.ipynb in Jupyter Notebook to walk through the quantum state step-by-step.
+
+## 📂 Project Structure
+
+grover-demo/
+
+├── Grover_3_Qubit.py         # Main Grover search with 3 qubits
+
+├── Bloch_sphere.py           # Bloch Sphere visualization demo
+
+└── README.md                 # This documentation
+
+
+## Sample Output
+```bash
+Measurement result（shots=1000）:
+{'101': 967, '000': 11, '011': 7, '100': 8, '111': 7}
+```
+
 # Grover's Algorithm 密碼破解模擬器
 
 這是一個使用 [Qiskit](https://qiskit.org/) 模擬 **Grover's Algorithm** 的 Python 專案。Grover 是一個量子搜尋演算法，可以在 $\sqrt{N}$ 的時間內搜尋資料庫，本專案用來展示如何「量子破解一個 3 位元密碼」。
