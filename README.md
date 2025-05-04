@@ -36,15 +36,12 @@ python Grover_3_Qubit.py
 Or open Grover_3_Qubit.ipynb in Jupyter Notebook to walk through the quantum state step-by-step.
 
 ## 📂 Project Structure
-
+```bash
 grover-demo/
-
 ├── Grover_3_Qubit.py         # Main Grover search with 3 qubits
-
 ├── Bloch_sphere.py           # Bloch Sphere visualization demo
-
 └── README.md                 # This documentation
-
+```
 
 ## Sample Output
 ```bash
@@ -91,14 +88,12 @@ python Grover_3_Qubit.py
 或在 Jupyter Notebook 中開啟 Grover_3_Qubit.ipynb 逐步觀察量子狀態變化。
 
 ## 📂 專案結構
-
+```bash
 grover-demo/
-
 ├── Grover_3_Qubit.py         # 主程式：3 qubit 的 Grover 搜尋
-
 ├── Bloch_sphere.py           # Bloch Sphere 可視化 demo
-
 └── README.md                 # 本說明文件
+```
 
 ## 執行輸出（範例）
 ```bash
